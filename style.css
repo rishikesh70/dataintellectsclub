@@ -8,13 +8,16 @@ header {
     background-color: #007ACC;
     color: #fff;
     padding: 10px 0;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
     display: flex;
 }
 
@@ -30,20 +33,14 @@ nav a {
 #hero {
     text-align: center;
     padding: 50px;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
 }
 
-#hero img {
-    max-width: 100%;
-    height: auto;
+#about, #events, #blog, #join-us, #contact {
+    padding: 30px;
 }
-
-#about {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Add more CSS styles for other sections and elements */
 
 footer {
     background-color: #007ACC;
@@ -51,3 +48,4 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
